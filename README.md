@@ -7,12 +7,12 @@ These are time series from 47 accelerometers with 2859 samples. The variable is 
 Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-90 damage 4, 91-100 damage 5.
 
 <br>
-** 数据琴行图如下**：
->![](images/Data_Violin.png)
+**数据琴行图如下**：
+![](images/Data_Violin.png)
 <br>
 
 
-##实验步骤
+## 实验步骤
 
 >该实验共分为3部分
 
