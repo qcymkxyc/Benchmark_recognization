@@ -1,14 +1,14 @@
 # Benchmark_recognization
 一个benchmark数据的损伤识别
 
-##数据集介绍
+## 数据集介绍
 >spring_beam.zip includes a folder spring_beam, which includes 100 files acc_xxx.mat.
 These are time series from 47 accelerometers with 2859 samples. The variable is y(47x2859).
 Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-90 damage 4, 91-100 damage 5.
 
 <br>
-** 数据琴行图如下**：
->>![](images/Data_Violin.png)
+**数据琴行图如下**：
+>![](images/Data_Violin.png)
 <br>
 
 
