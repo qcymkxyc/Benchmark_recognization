@@ -32,4 +32,4 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
     基本参照C4.5算法的离散化方式
 ### 连续分布建模
-    直接对 $P(X|y)$建模   
+直接对$P(X|y)$建模   
