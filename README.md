@@ -7,18 +7,9 @@ These are time series from 47 accelerometers with 2859 samples. The variable is 
 Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-90 damage 4, 91-100 damage 5.
 
 <br>
-<<<<<<< HEAD
-**数据琴行图如下**：
+
+**数据琴型图如下**：
 >![](images/Data_Violin.png)
-=======
-
-**数据琴行图如下**：
-
-![数据琴形图](images/Data_Violin.png)
-
->>>>>>> 7aacee5ad201014ed16391bc81a416fdb25579b3
-<br>
-
 
 ## 实验步骤
 
@@ -37,9 +28,9 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 1. 将数据离散化，利用离散分布建模
 2. 直接用连续分布建模
 
-### 1.1 数据离散化方式
->基本参照C4.5算法的离散化方式
-### 1.2 连续分布建模
->信息增益率可以看成两部分：特征和类别的互信息（分子）以及特征的信息熵（分母）。但其实仅需要对分子建模，分母用全概率公式即可算得。
+> ### 数据离散化方式
 
->
+>基本参照C4.5算法的离散化方式
+>### 连续分布建模
+>直接对dd 
+ $$P(X)$$
