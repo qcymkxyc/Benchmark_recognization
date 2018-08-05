@@ -1,5 +1,5 @@
 # Benchmark_recognization
-一个benchmark数据的损伤识别
+一个benchmark数据的损伤识别,实验流程见：[]()
 
 ## 数据集介绍
 >spring_beam.zip includes a folder spring_beam, which includes 100 files acc_xxx.mat.
