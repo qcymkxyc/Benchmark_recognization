@@ -238,7 +238,7 @@ DNN不是时序模型，需要作特征提取，这里分别取四分位数，�
 
 ## 4. 识别结果
 
-###4.1 混淆矩阵：
+###4.1 混淆矩阵(验证集)：
 
 ![DNN混淆矩阵](images/DNN混淆矩阵.png) ![LSTM混淆矩阵](images/LSTM混淆矩阵.png) ![BLSTM混淆矩阵](images/BLSTM混淆矩阵.png)
 
