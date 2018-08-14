@@ -238,15 +238,15 @@ DNN不是时序模型，需要作特征提取，这里分别取四分位数，�
 
 ## 4. 识别结果
 
-###4.1 混淆矩阵(验证集)：
+### 4.1 混淆矩阵(验证集)：
 
 ![DNN混淆矩阵](images/DNN混淆矩阵.png) ![LSTM混淆矩阵](images/LSTM混淆矩阵.png) ![BLSTM混淆矩阵](images/BLSTM混淆矩阵.png)
 
-###4.2 ROC
+### 4.2 ROC
 
 ![ROC](images/ROC.png)
 
-###4.3对应的AUC：
+### 4.3 对应的AUC：
 
 
 | 模型    | Train    |	Test     |
