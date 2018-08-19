@@ -57,7 +57,7 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
 **阶数确定流程图:** 
 
->![阶数确定步骤图](images/阶数确定步骤图.png)
+>![阶数确定步骤图](images/定阶流程图.png)
 
 ### 2.1 平稳化处理
 
