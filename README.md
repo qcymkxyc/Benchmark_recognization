@@ -21,7 +21,7 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
 **数据琴型图如下**：
 
->![](images/Data_Violin.png)
+>![](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/Data_Violin.png)
 
 ## 实验步骤
 
@@ -47,7 +47,7 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
 **最终结果**：
 
-![信息增益率图](images/信息增益率图.png)
+![信息增益率图](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/信息增益率图.png)
 
 ## 2.利用ARMA模型的自相关函数和偏自相关函数确定LSTM步数
 借鉴于ARMA模型的其中一种定阶方式，所选模型遵循两个原则：
@@ -57,7 +57,7 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
 **阶数确定流程图:** 
 
->![阶数确定步骤图](images/定阶流程图.png)
+>![阶数确定步骤图](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/定阶流程图.png)
 
 ### 2.1 平稳化处理
 
@@ -65,11 +65,11 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
 * 处理前的自相关函数
 
->![处理前的自相关函数](images/原始数据自相关函数.png)
+>![处理前的自相关函数](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/原始数据自相关函数.png)
 
 * 处理后：
 
->![处理前的自相关函数](images/平稳化后自相关函数.png)
+>![处理前的自相关函数](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/平稳化后自相关函数.png)
 
 ### 2.2 游程检验
 
@@ -90,7 +90,7 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 
 **最终结果**（上图是ACF，下图是PACF）：
 
-![ACF&&PACF](images/ACF&&PACF.png)
+![ACF&&PACF](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/ACF&&PACF.png)
 
 
 ## 3.损伤识别
@@ -98,7 +98,7 @@ Measurements 1-50 undamaged, 51-60 damage 1, 61-70 damage 2, 71-80 damage 3, 81-
 DNN、LSTM，Bidirectional-LSTM，作横向对比
 
 ### 3.1 DNN
-    
+
 DNN不是时序模型，需要作特征提取，这里分别取四分位数，最大值，最小值，均值，方差
 
 * 超参数：
@@ -240,11 +240,11 @@ DNN不是时序模型，需要作特征提取，这里分别取四分位数，�
 
 ### 4.1 混淆矩阵(验证集)：
 
-![DNN混淆矩阵](images/DNN混淆矩阵.png) ![LSTM混淆矩阵](images/LSTM混淆矩阵.png) ![BLSTM混淆矩阵](images/BLSTM混淆矩阵.png)
+![DNN混淆矩阵](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/DNN混淆矩阵.png) ![LSTM混淆矩阵](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/LSTM混淆矩阵.png) ![BLSTM混淆矩阵](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/BLSTM混淆矩阵.png)
 
 ### 4.2 ROC
 
-![ROC](images/ROC.png)
+![ROC](https://blog-1253764997.cos.ap-chongqing.myqcloud.com/ROC.png)
 
 ### 4.3 对应的AUC：
 
